@@ -1,0 +1,505 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kaviya's personal portfolio website">
+    <title>Kaviya | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Kaviya<span>.</span></a>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-btn"
+                    aria-label="Toggle light and dark theme">☀</button>
+
+                <button id="menuToggle" class="menu-btn"
+                    aria-label="Toggle navigation" aria-expanded="false">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text reveal">
+                    <p class="welcome">HELLO, WELCOME TO MY PORTFOLIO</p>
+
+                    <h1>Hi, I'm <span class="gradient-text">Kaviya</span></h1>
+
+                    <h2>I'm a <span id="typingText"></span><span class="cursor">|</span></h2>
+
+                    <p class="hero-description">
+                        Hello! I am Kaviya, a passionate college student
+                        interested in technology, web development and
+                        artificial intelligence. I enjoy learning new skills
+                        and creating innovative digital projects.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn">
+                            View Projects ↗
+                        </a>
+
+                        <a href="#contact" class="btn secondary-btn">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/" target="_blank"
+                           rel="noopener noreferrer">GitHub</a>
+
+                        <a href="https://linkedin.com/" target="_blank"
+                           rel="noopener noreferrer">LinkedIn</a>
+
+                        <a href="https://instagram.com/" target="_blank"
+                           rel="noopener noreferrer">Instagram</a>
+                    </div>
+                </div>
+
+                <div class="hero-image reveal">
+                    <div class="image-glow"></div>
+
+                    <div class="profile-frame">
+                        <img src="profile.jpg"
+                             alt="Kaviya's profile photo"
+                             onerror="this.style.display='none'; this.parentElement.classList.add('no-photo')">
+                    </div>
+
+                    <div class="floating-tag">
+                        ✨ Creative Learner
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-subtitle">GET TO KNOW ME</p>
+                    <h2>About <span class="gradient-text">Me</span></h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-image reveal">
+                        <div class="about-photo">
+                            <img src="profile.jpg"
+                                 alt="Kaviya's photograph"
+                                 onerror="this.style.display='none'; this.parentElement.classList.add('no-photo')">
+                        </div>
+                    </div>
+
+                    <div class="about-content reveal">
+                        <h3>I'm Kaviya, a Student & Future Developer</h3>
+
+                        <p>
+                            I am a college student passionate about
+                            programming, web development and emerging
+                            technologies. I enjoy exploring new ideas
+                            and transforming them into useful digital
+                            experiences.
+                        </p>
+
+                        <h4>Career Objective</h4>
+
+                        <p>
+                            My goal is to improve my technical knowledge,
+                            develop problem-solving abilities and build
+                            innovative solutions through continuous learning.
+                        </p>
+
+                        <h4>My Interests</h4>
+
+                        <div class="interest-tags">
+                            <span>Web Development</span>
+                            <span>Artificial Intelligence</span>
+                            <span>Programming</span>
+                            <span>Creative Design</span>
+                        </div>
+
+                        <a href="#contact" class="btn primary-btn">
+                            Let's Connect ↗
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section alternate-bg" id="skills">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-subtitle">WHAT I KNOW</p>
+                    <h2>My <span class="gradient-text">Skills</span></h2>
+                    <p>Technologies and tools I am learning and practicing.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card reveal">
+                        <div class="skill-info">
+                            <span>HTML</span><span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="90"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-info">
+                            <span>CSS</span><span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="85"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-info">
+                            <span>JavaScript</span><span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="75"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-info">
+                            <span>Python</span><span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="80"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-info">
+                            <span>Artificial Intelligence</span><span>70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="70"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-info">
+                            <span>UI/UX Design</span><span>65%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="65"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="section" id="education">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-subtitle">MY LEARNING JOURNEY</p>
+                    <h2>My <span class="gradient-text">Education</span></h2>
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-card">
+                            <span class="timeline-year">2024 – Present</span>
+                            <h3>College Education</h3>
+                            <h4>Your College Name</h4>
+                            <p>Degree: Your Degree Name</p>
+                            <p>Location: Your City</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-card">
+                            <span class="timeline-year">2022 – 2024</span>
+                            <h3>Higher Secondary Education</h3>
+                            <h4>Your School Name</h4>
+                            <p>Stream: Computer Science</p>
+                            <p>Location: Your City</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-card">
+                            <span class="timeline-year">2021 – 2022</span>
+                            <h3>Secondary Education</h3>
+                            <h4>Your School Name</h4>
+                            <p>Completed secondary education.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section alternate-bg" id="projects">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-subtitle">WHAT I HAVE BUILT</p>
+                    <h2>My <span class="gradient-text">Projects</span></h2>
+                    <p>Some sample projects from my learning journey.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card reveal">
+                        <div class="project-icon">🌐</div>
+                        <span class="project-number">PROJECT 01</span>
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            A responsive personal portfolio website
+                            showcasing Kaviya's skills, education
+                            and achievements.
+                        </p>
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/" target="_blank"
+                           rel="noopener noreferrer" class="project-link">
+                            View Project ↗
+                        </a>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-icon">🤖</div>
+                        <span class="project-number">PROJECT 02</span>
+                        <h3>AI Prompt Quality Checker</h3>
+                        <p>
+                            A simple application that checks AI prompt
+                            components and suggests improvements.
+                        </p>
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/" target="_blank"
+                           rel="noopener noreferrer" class="project-link">
+                            View Project ↗
+                        </a>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-icon">📚</div>
+                        <span class="project-number">PROJECT 03</span>
+                        <h3>Student Management System</h3>
+                        <p>
+                            A student information management interface
+                            designed to organize academic records.
+                        </p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="https://github.com/" target="_blank"
+                           rel="noopener noreferrer" class="project-link">
+                            View Project ↗
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section class="section" id="certifications">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-subtitle">MY ACHIEVEMENTS</p>
+                    <h2>Certifications & <span class="gradient-text">Achievements</span></h2>
+                </div>
+
+                <div class="certifications-grid">
+
+                    <div class="cert-card reveal">
+                        <div class="cert-icon">🏆</div>
+                        <h3>Web Development</h3>
+                        <p>Completed a beginner-level web development course.</p>
+                        <span>2025</span>
+                    </div>
+
+                    <div class="cert-card reveal">
+                        <div class="cert-icon">💻</div>
+                        <h3>Python Programming</h3>
+                        <p>Completed Python programming fundamentals.</p>
+                        <span>2025</span>
+                    </div>
+
+                    <div class="cert-card reveal">
+                        <div class="cert-icon">🤖</div>
+                        <h3>AI Fundamentals</h3>
+                        <p>Learned the basics of artificial intelligence.</p>
+                        <span>2026</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section alternate-bg" id="contact">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-subtitle">GET IN TOUCH</p>
+                    <h2>Contact <span class="gradient-text">Me</span></h2>
+                    <p>Have a project idea or want to connect? Send me a message.</p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-info reveal">
+                        <h3>Let's Talk!</h3>
+                        <p>
+                            I am Kaviya. I am interested in learning,
+                            collaborating and exploring new opportunities.
+                        </p>
+
+                        <div class="contact-detail">
+                            <span>📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:student@example.com">
+                                    student@example.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span>📱</span>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+910000000000">
+                                    +91 00000 00000
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span>📍</span>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Your City, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm" novalidate>
+
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name"
+                                placeholder="Enter your name" required>
+                            <small class="error" id="nameError"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email"
+                                placeholder="Enter your email" required>
+                            <small class="error" id="emailError"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" rows="5"
+                                placeholder="Write your message..." required></textarea>
+                            <small class="error" id="messageError"></small>
+                        </div>
+
+                        <button type="submit" class="btn primary-btn">
+                            Send Message ↗
+                        </button>
+
+                        <p class="demo-notice">
+                            Note: This is a frontend demo. Messages are
+                            validated but are not sent as emails.
+                        </p>
+
+                        <p id="formStatus" role="status"
+                           aria-live="polite"></p>
+
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">Kaviya<span>.</span></a>
+
+            <p>Designed & Built with ❤️ using HTML, CSS and JavaScript.</p>
+
+            <div class="footer-socials">
+                <a href="https://github.com/" target="_blank"
+                   rel="noopener noreferrer">GitHub</a>
+
+                <a href="https://linkedin.com/" target="_blank"
+                   rel="noopener noreferrer">LinkedIn</a>
+
+                <a href="https://instagram.com/" target="_blank"
+                   rel="noopener noreferrer">Instagram</a>
+            </div>
+
+            <p class="copyright">
+                © <span id="year"></span> Kaviya. All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
